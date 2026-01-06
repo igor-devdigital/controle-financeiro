@@ -1,0 +1,71 @@
+.history-wrapper {
+  max-width: 1120px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.history-title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #008080;
+  display: inline-block;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-table th {
+  text-align: left;
+  padding: 12px;
+  background: #f8f9fa;
+  color: #555;
+}
+
+.history-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.bold { font-weight: 600; }
+
+.badge-in {
+  color: #27ae60;
+  background: #eafaf1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.badge-out {
+  color: #e74c3c;
+  background: #fdedec;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.del-btn {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #666;
+}
+
+.del-btn:hover {
+  background: #e74c3c;
+  color: white;
+  border-color: #e74c3c;
+}
+
+.empty-msg {
+  text-align: center;
+  padding: 30px !important;
+  color: #999;
+}

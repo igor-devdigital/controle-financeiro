@@ -1,0 +1,25 @@
+.resume-container {
+  max-width: 1120px;
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  margin-top: -50px;
+  justify-content: space-around;
+}
+
+.resume-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px 20px;
+  width: 100%;
+  box-shadow: 0px 0px 5px #ccc;
+}
+
+.income-value { color: green; font-weight: bold; }
+.expense-value { color: red; font-weight: bold; }
+.total-value.positive { color: blue; }
+.total-value.negative { color: red; }
