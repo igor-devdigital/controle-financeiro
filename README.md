@@ -1,16 +1,35 @@
-# React + Vite
+# 💰 Controle Financeiro Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um sistema de gestão financeira moderno e responsivo desenvolvido com **React.js** e **Vite**. Este projeto permite organizar suas finanças diárias, registrando ganhos e gastos com cálculos automáticos e persistência de dados.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## 🚀 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Resumo Inteligente:** Três cards que exibem o total de Entradas, Saídas e o Saldo atualizado.
+- **Formulário de Cadastro:** Adição rápida de transações com descrição, valor e categoria (entrada/saída).
+- **Histórico Dinâmico:** Uma tabela (Grid) que exibe todas as suas movimentações.
+- **Exclusão de Itens:** Botão para remover transações específicas.
+- **Armazenamento Local:** Os dados são salvos no `localStorage` do navegador, para que suas informações não sumam ao fechar a página.
+- **Reset de Dados:** Função para limpar todo o histórico de transações.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias e Ferramentas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js:** Biblioteca para construção da interface de usuário.
+- **Hooks (useState, useEffect):** Para gerenciamento de estado e persistência de dados.
+- **Vite:** Ferramenta de build rápida para desenvolvimento web.
+- **CSS3:** Estilização com foco em Clean Design e Responsividade.
+- **Git & GitHub:** Versionamento e hospedagem do código.
+
+## 📁 Estrutura do Projeto
+
+```text
+src/
+ ├── components/
+ │    ├── Form/      # Captura de descrição e valor
+ │    ├── Grid/      # Tabela com as transações (A Planilha)
+ │    ├── Header/    # Título do sistema
+ │    └── Resume/    # Cartões de resumo financeiro
+ ├── App.jsx         # Cérebro da aplicação (Lógica principal)
+ ├── main.jsx        # Ponto de entrada do React
+ └── App.css         # Estilos globais
